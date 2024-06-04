@@ -48,7 +48,9 @@ A página inicial do blog exibe os últimos posts e uma lista de categorias. Voc
 Pull requests são bem-vindos. Para mudanças importantes, por favor, abra uma issue primeiro para discutir o que você gostaria de mudar.
 
 ## Contato
-
+\
 **Matheus Lopes de Jesus - mah.lopesdejesus@gmail.com**
+\
 **https://www.linkedin.com/in/matheus-lopes-de-jesus-09795a286/**
+\
 **Link do Projeto:** https://github.com/math-lopez/BlogMatheusLopesdeJesus

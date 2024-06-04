@@ -51,6 +51,6 @@ Pull requests são bem-vindos. Para mudanças importantes, por favor, abra uma i
 \
 **Matheus Lopes de Jesus - mah.lopesdejesus@gmail.com**
 \
-**https://www.linkedin.com/in/matheus-lopes-de-jesus-09795a286/**
+**LinkedIn:** https://www.linkedin.com/in/matheus-lopes-de-jesus-09795a286/
 \
 **Link do Projeto:** https://github.com/math-lopez/BlogMatheusLopesdeJesus

@@ -1,4 +1,6 @@
-# Nome do Projeto
+# Projeto de Estudo Front End (FIAP) Engenharia de Software - Conceitos de React
+
+## MyBlog
 
 Este é um projeto de blog construído com React.js e Contentful. Ele exibe posts de blog e categorias, e permite aos usuários visualizar todos os posts ou apenas os últimos posts.
 

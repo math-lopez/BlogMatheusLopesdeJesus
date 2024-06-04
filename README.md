@@ -22,21 +22,26 @@ O que você precisa para instalar o software e como instalá-lo:
    git clone https://github.com/math-lopez/BlogMatheusLopesdeJesus.git
     ```
 
-## Navegue até o diretório do projeto
+2. **Navegue até o diretório do projeto**
 
 ```sh
-cd BlogMatheusLopesdeJesus
+    cd BlogMatheusLopesdeJesus
 ```
-## Instale as dependências
 
-## Crie um arquivo .env na raiz do projeto e preencha suas variáveis de ambiente VITE_SPACE_ID e VITE_ACCESS_TOKEN para a API Contentful.
+3. **Instale as dependências**
 
-## Inicie o servidor de desenvolvimento
+```sh
+    npm install
+```
+4. **Crie um arquivo .env na raiz do projeto e preencha suas variáveis de ambiente VITE_SPACE_ID e VITE_ACCESS_TOKEN para a API Contentful.**
 
-## Agora você deve ser capaz de ver o projeto rodando em localhost:3000 no seu navegador.
+5. **Inicie o servidor de desenvolvimento**
+```sh
+    npm run vite
+```
+6. **Agora você deve ser capaz de ver o projeto rodando em localhost:3000 no seu navegador.**
 
 ## Uso
-
 A página inicial do blog exibe os últimos posts e uma lista de categorias. Você pode clicar em "Ver todos os posts" para ver todos os posts disponíveis.
 
 ## Contribuindo

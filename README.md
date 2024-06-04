@@ -1,54 +1,87 @@
-# Projeto de Estudo Front End (FIAP) Engenharia de Software - Conceitos de React
+# FIAP Blog
 
-## MyBlog
+FIAP Blog é uma aplicação web construída com React e Vite, que utiliza Contentful como CMS para gerenciar o conteúdo. Este projeto serve como exemplo de um blog simples com componentes reutilizáveis e navegação entre páginas.
 
-Este é um projeto de blog construído com React.js e Contentful. Ele exibe posts de blog e categorias, e permite aos usuários visualizar todos os posts ou apenas os últimos posts.
+Blog postado: https://rm351250-matheus-lopes-de-jesus.netlify.app/
 
-## Começando
 
-Estas instruções fornecerão uma cópia do projeto em execução na sua máquina local para fins de desenvolvimento e teste.
+## Índice
 
-### Pré-requisitos
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Instalação](#instalação)
+- [Scripts Disponíveis](#scripts-disponíveis)
+- [Uso](#uso)
+- [Componentes](#componentes)
+- [Páginas](#páginas)
+- [Integração com Contentful](#integração-com-contentful)
 
-O que você precisa para instalar o software e como instalá-lo:
+## Tecnologias Utilizadas
 
-- **Node.js e npm:** Você pode baixar e instalar a partir do site oficial do Node.js.
-- **Um editor de código:** Como o VS Code.
+- React 18.2.0
+- Vite 5.2.0
+- React Router Dom 6.23.1
+- Bootstrap 5.3.3
+- Contentful 10.11.7
 
-### Instalação
+## Instalação
 
-1. **Clone o repositório:**
+1. Clone o repositório
+git clone https://github.com/math-lopez/BlogMatheusLopesdeJesus.git
+
+2. Navegue até o diretório do projeto:
+cd BlogMatheusLopesdeJesus
+
+3. Instale as dependências:
+
+ 
 ```sh
-   git clone https://github.com/math-lopez/BlogMatheusLopesdeJesus.git
+npm install
 ```
 
-2. **Navegue até o diretório do projeto**
+## Scripts Disponíveis
+
+**DEV:** Inicia o servidor de desenvolvimento.
+ 
 
 ```sh
-    cd BlogMatheusLopesdeJesus
+npm run dev
 ```
 
-3. **Instale as dependências**
+**build:** Compila o projeto para produção.
 
+ 
 ```sh
-    npm install
+npm run build
 ```
-4. **Crie um arquivo .env na raiz do projeto e preencha suas variáveis de ambiente VITE_SPACE_ID e VITE_ACCESS_TOKEN para a API Contentful.**
 
-5. **Inicie o servidor de desenvolvimento**
-```sh
-    npm run vite
-```
-6. **Agora você deve ser capaz de ver o projeto rodando em localhost:3000 no seu navegador.**
 
 ## Uso
-A página inicial do blog exibe os últimos posts e uma lista de categorias. Você pode clicar em "Ver todos os posts" para ver todos os posts disponíveis.
+Para iniciar o servidor de desenvolvimento, execute:
+ 
 
-## Contribuindo
-Pull requests são bem-vindos. Para mudanças importantes, por favor, abra uma issue primeiro para discutir o que você gostaria de mudar.
+```sh
+npm run dev
+```
+
+## Componentes
+Card: Componente para exibir posts ou informações em um formato de cartão.
+Footer: Componente de rodapé.
+Header: Componente de cabeçalho.
+Layout: Componente de layout para estruturação das páginas.
+
+## Páginas
+AllPosts: Página que lista todos os posts.
+Home: Página inicial.
+Post: Página para exibir um post específico.
+
+## Integração com Contentful
+Este projeto utiliza Contentful como CMS para gerenciar o conteúdo do blog. Certifique-se de configurar as credenciais de acesso ao Contentful no seu ambiente de desenvolvimento.
+
+Crie um arquivo .env na raiz do projeto com as seguintes variáveis:
+VITE_CONTENTFUL_SPACE_ID=seu_space_id
+VITE_CONTENTFUL_ACCESS_TOKEN=seu_access_token
 
 ## Contato
-\
 **Matheus Lopes de Jesus - mah.lopesdejesus@gmail.com**
 \
 **LinkedIn:** https://www.linkedin.com/in/matheus-lopes-de-jesus-09795a286/

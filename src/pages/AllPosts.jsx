@@ -10,7 +10,7 @@ function AllPosts() {
     const [posts, setPosts] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
     const [totalPosts, setTotalPosts] = useState(0);
-    const postsPerPage = 4;
+    const postsPerPage = 3;
 
     const getPosts = async (page = 1) => {
         try {
@@ -70,7 +70,7 @@ function AllPosts() {
                         <nav>
                             <ul className="pagination">
                                 {pageNumbers.map(number => (
-                                    <li key={number} className="page-item">
+                                    <li key={number} className="page-item" style={{"cursor":"pointer"}}>
                                         <a onClick={() => paginate(number)} className="page-link">
                                             {number}
                                         </a>

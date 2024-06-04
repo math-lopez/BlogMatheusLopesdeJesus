@@ -18,9 +18,9 @@ O que você precisa para instalar o software e como instalá-lo:
 ### Instalação
 
 1. **Clone o repositório:**
-   ```sh
+```sh
    git clone https://github.com/math-lopez/BlogMatheusLopesdeJesus.git
-    ```
+```
 
 2. **Navegue até o diretório do projeto**
 
